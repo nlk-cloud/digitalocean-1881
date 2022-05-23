@@ -1,0 +1,2299 @@
+[
+    {
+        "id": "dab529d804bb98d3",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "57df2cf8b80f49aa",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c9db48c63e1a3fde",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "78519359320c165a",
+        "type": "tab",
+        "label": "Login-page",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "60d5f833419ebeb5",
+        "type": "tab",
+        "label": "Trial",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0811c43bf2f0d889",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "165.232.191.36",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b67dcfaf8252d869",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 15,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "7560e5e8.ee7dfc",
+        "type": "ui_tab",
+        "name": "Power-parameters",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3a15a9c9dbe9a80a",
+        "type": "ui_tab",
+        "name": "Temperature",
+        "icon": "wi-wu-sunny",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7c447e96.4b96a",
+        "type": "ui_tab",
+        "name": "Zooland Sys",
+        "icon": "home",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ba74d62bbcfb4c85",
+        "type": "ui_group",
+        "name": "Phase1",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d8596899.c56458",
+        "type": "ui_group",
+        "name": "Phase2",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "adcbe698363d02da",
+        "type": "ui_group",
+        "name": "Average",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7990dca130e16dce",
+        "type": "ui_group",
+        "name": "Total power",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e9a2c221a364b5ca",
+        "type": "ui_group",
+        "name": "Frequency",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "cab9969f072c5f44",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "3a15a9c9dbe9a80a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "38f6a7672336ab66",
+        "type": "ui_group",
+        "name": "Phase3",
+        "tab": "7560e5e8.ee7dfc",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c982fbb8.1deb38",
+        "type": "ui_group",
+        "name": "hidden_group",
+        "tab": "7c447e96.4b96a",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e1cf2b07.e6c818",
+        "type": "mqtt-broker",
+        "broker": "192.168.1.157",
+        "port": "1883",
+        "clientid": "test-client",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "120",
+        "cleansession": true,
+        "birthTopic": "sensors/connected/test-client",
+        "birthQos": "0",
+        "birthRetain": "true",
+        "birthPayload": "1",
+        "willTopic": "sensors/connected/test-client",
+        "willQos": "0",
+        "willRetain": "true",
+        "willPayload": "0"
+    },
+    {
+        "id": "730a8d46b5037a29",
+        "type": "ui_link",
+        "name": "Link 7",
+        "link": "www.google.com",
+        "icon": "open_in_browser",
+        "target": "newtab",
+        "order": 7
+    },
+    {
+        "id": "43005dfc5c315262",
+        "type": "ui_link",
+        "name": "Link 8",
+        "icon": "open_in_browser",
+        "target": "newtab",
+        "order": 8
+    },
+    {
+        "id": "1339389b68e5b849",
+        "type": "mqtt in",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "topic": "Selecem4m/Data/Json",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "0811c43bf2f0d889",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "69b27490cf84d643",
+                "b454e9277419a33c"
+            ]
+        ]
+    },
+    {
+        "id": "432e281063a68284",
+        "type": "debug",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "69b27490cf84d643",
+        "type": "json",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "c720be180913edb1",
+                "7aaf89dd94504afa",
+                "48581e52d104df96",
+                "a07038bc72321511",
+                "928e0495b43136d7",
+                "ec004a6ab2b41aa0",
+                "67d50eb0c0477364"
+            ]
+        ]
+    },
+    {
+        "id": "7aaf89dd94504afa",
+        "type": "debug",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.Phase1.Voltage1N",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "b454e9277419a33c",
+        "type": "debug",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c720be180913edb1",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Phase1.Voltage1N} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 200,
+        "wires": [
+            [
+                "a89d7fc47689188e",
+                "432e281063a68284",
+                "bb5ef1e7e21eccf3"
+            ]
+        ]
+    },
+    {
+        "id": "48581e52d104df96",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Phase2.PF2} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 400,
+        "wires": [
+            [
+                "519427f96af6f3d2"
+            ]
+        ]
+    },
+    {
+        "id": "a07038bc72321511",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Phase3.PF3} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 480,
+        "wires": [
+            [
+                "7c372d5bc636db23"
+            ]
+        ]
+    },
+    {
+        "id": "928e0495b43136d7",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Average.AVGVoltage_LN} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 560,
+        "wires": [
+            [
+                "07b0d6d64e32d1da"
+            ]
+        ]
+    },
+    {
+        "id": "ec004a6ab2b41aa0",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Total.Total_kVAr} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 620,
+        "wires": [
+            [
+                "a8ef6cd89822abf9"
+            ]
+        ]
+    },
+    {
+        "id": "67d50eb0c0477364",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.Frequency.Freq} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 680,
+        "wires": [
+            [
+                "ec31b0059ced90fd"
+            ]
+        ]
+    },
+    {
+        "id": "d93fb74d35e2680d",
+        "type": "mqtt in",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "topic": "Dtempsensor/Data/Json",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "0811c43bf2f0d889",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 860,
+        "wires": [
+            [
+                "33adc9aad2ab7c88"
+            ]
+        ]
+    },
+    {
+        "id": "33adc9aad2ab7c88",
+        "type": "json",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 390,
+        "y": 860,
+        "wires": [
+            [
+                "1c6170c38d39961c"
+            ]
+        ]
+    },
+    {
+        "id": "1c6170c38d39961c",
+        "type": "function",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.temp.tempC} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 860,
+        "wires": [
+            [
+                "4008573c2481ac2b"
+            ]
+        ]
+    },
+    {
+        "id": "e4c0f9d889ba645e",
+        "type": "inject",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 710,
+        "y": 960,
+        "wires": [
+            [
+                "aa251dc0945a091b"
+            ]
+        ]
+    },
+    {
+        "id": "a89d7fc47689188e",
+        "type": "ui_gauge",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "ba74d62bbcfb4c85",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "compass",
+        "title": "Voltage-phase1-gauge",
+        "label": "Volts",
+        "format": "{{value}}",
+        "min": "200",
+        "max": "250",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 780,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "4008573c2481ac2b",
+        "type": "ui_gauge",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "cab9969f072c5f44",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature-chandraLayout",
+        "label": "oC",
+        "format": "{{value}}",
+        "min": "15",
+        "max": "45",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 820,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "bb5ef1e7e21eccf3",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "ba74d62bbcfb4c85",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Voltage-phase1-chart(in Volts)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "200",
+        "ymax": "250",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 810,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "519427f96af6f3d2",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "d8596899.c56458",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "PF-phase2",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0.5",
+        "ymax": "1.5",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 690,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "07b0d6d64e32d1da",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "adcbe698363d02da",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Average voltage ( line to neutral)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "220",
+        "ymax": "240",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 730,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8ef6cd89822abf9",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "7990dca130e16dce",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Total kVAr",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "220",
+        "ymax": "240",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 660,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec31b0059ced90fd",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "e9a2c221a364b5ca",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Frequency",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "49",
+        "ymax": "51",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 670,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c372d5bc636db23",
+        "type": "ui_chart",
+        "z": "dab529d804bb98d3",
+        "name": "",
+        "group": "38f6a7672336ab66",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "PF - Phase3 ",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0.5",
+        "ymax": "1.5",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 710,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b97bc1c0.cb899",
+        "type": "ui_template",
+        "z": "dab529d804bb98d3",
+        "group": "c982fbb8.1deb38",
+        "name": "Clock Toolbar",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n\n$(function() {\n    if($('.md-toolbar-tools').length != 0){\n        loadClock();\n    }else setTimeout(loadClock, 500)\n});\n\nfunction loadClock(){\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    \n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n        var d = new Date();\n        p.text(d.toLocaleString());\n    }\n\n    if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n    }\n        \n    document.clockInterval = setInterval(upTime,1000);\n}\n\n</script>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "x": 640,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa251dc0945a091b",
+        "type": "ui_clock",
+        "z": "dab529d804bb98d3",
+        "name": "Time",
+        "group": "cab9969f072c5f44",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "x": 890,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "b98a4841ab753eb4",
+        "type": "json",
+        "z": "57df2cf8b80f49aa",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 330,
+        "y": 140,
+        "wires": [
+            [
+                "bc07e199b6269121"
+            ]
+        ]
+    },
+    {
+        "id": "be411c89556b5490",
+        "type": "mqtt in",
+        "z": "57df2cf8b80f49aa",
+        "name": "",
+        "topic": "Dtempsensor/Data/Json",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "0811c43bf2f0d889",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "b98a4841ab753eb4"
+            ]
+        ]
+    },
+    {
+        "id": "bc07e199b6269121",
+        "type": "function",
+        "z": "57df2cf8b80f49aa",
+        "name": "",
+        "func": "var topic=msg.topic;\nvar d = new Date(new Date().toLocaleString(\"en-US\", {timeZone: \"Asia/Kolkata\"}));\n//var d = new Date();\n\n\nvar date = {\"year\": d.getFullYear(),\"month\":(d.getMonth()+1),\"day\":d.getDate()};\nvar time = {\"hours\":d.getHours(),\"min\":d.getMinutes(),\"sec\":d.getSeconds()};\npayload={\"date\":date,\"time\":time,\"payload\":msg.payload.temp.tempF,\"topic\":msg.topic};\n//msg.payload=JSON.stringify(payload);\n//msg.filename=\"/home/pi/logs/data.log\";\nmsg.payload=payload;\nreturn msg;\n\n//return{ payload:msg.payload.temp.tempF} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 140,
+        "wires": [
+            [
+                "56d57f7bb0a9eaa0",
+                "2f4a77b42c3416e1",
+                "2adf3c71f227c1e6"
+            ]
+        ]
+    },
+    {
+        "id": "6ae230085b57a91d",
+        "type": "ui_gauge",
+        "z": "57df2cf8b80f49aa",
+        "name": "",
+        "group": "cab9969f072c5f44",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature-chandraLayout in deg F",
+        "label": "oF",
+        "format": "{{value}}",
+        "min": "59",
+        "max": "115",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 950,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "de7a2d48737c7316",
+        "type": "debug",
+        "z": "57df2cf8b80f49aa",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "56d57f7bb0a9eaa0",
+        "type": "function",
+        "z": "57df2cf8b80f49aa",
+        "name": "",
+        "func": "payload = (msg.payload.payload).toFixed(2);\n//return{ payload:(msg.payload.payload)} ;\nmsg.payload= payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 140,
+        "wires": [
+            [
+                "6ae230085b57a91d",
+                "de7a2d48737c7316"
+            ]
+        ]
+    },
+    {
+        "id": "2f4a77b42c3416e1",
+        "type": "function",
+        "z": "57df2cf8b80f49aa",
+        "name": "",
+        "func": "\nreturn{ payload:msg.payload.date} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 200,
+        "wires": [
+            [
+                "1ad05316beefa03d"
+            ]
+        ]
+    },
+    {
+        "id": "1ad05316beefa03d",
+        "type": "ui_text",
+        "z": "57df2cf8b80f49aa",
+        "group": "cab9969f072c5f44",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Date received",
+        "format": "{{msg.payload.day}}.{{msg.payload.month}}.{{msg.payload.year}}  ",
+        "layout": "row-spread",
+        "x": 840,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a0fe0d45b3a70793",
+        "type": "ui_text",
+        "z": "57df2cf8b80f49aa",
+        "group": "cab9969f072c5f44",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Time received",
+        "format": "{{msg.payload.hours}}.{{msg.payload.min}}.{{msg.payload.sec}}  ",
+        "layout": "row-spread",
+        "x": 840,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2adf3c71f227c1e6",
+        "type": "function",
+        "z": "57df2cf8b80f49aa",
+        "name": "",
+        "func": "//return msg;\nreturn{ payload:msg.payload.time} ;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 260,
+        "wires": [
+            [
+                "a0fe0d45b3a70793"
+            ]
+        ]
+    },
+    {
+        "id": "89b07307.a0406",
+        "type": "mqtt in",
+        "z": "c9db48c63e1a3fde",
+        "name": "",
+        "topic": "sensors/#",
+        "qos": "0",
+        "broker": "e1cf2b07.e6c818",
+        "inputs": 0,
+        "x": 260,
+        "y": 160,
+        "wires": [
+            [
+                "5fe65c78.ec88cc",
+                "b64f8909.e26488"
+            ]
+        ]
+    },
+    {
+        "id": "d427efe1.41ede8",
+        "type": "file",
+        "z": "c9db48c63e1a3fde",
+        "name": "log sensor data",
+        "filename": "/home/pi/logs/sensors.txt",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "x": 581,
+        "y": 281,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e70dddc1.e739c",
+        "type": "json",
+        "z": "c9db48c63e1a3fde",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 411,
+        "y": 272,
+        "wires": [
+            [
+                "d427efe1.41ede8"
+            ]
+        ]
+    },
+    {
+        "id": "5fe65c78.ec88cc",
+        "type": "debug",
+        "z": "c9db48c63e1a3fde",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 541,
+        "y": 187,
+        "wires": []
+    },
+    {
+        "id": "691a0c2.0b81174",
+        "type": "function",
+        "z": "c9db48c63e1a3fde",
+        "name": "Modify Payload Changed",
+        "func": "var local=context.get('local') || {};\nvar topic=msg.topic;\nvar last_payload=\"\";\nif (local[topic]===undefined)//test exists\n{\n    node.log(\"not defined \"+topic);\n    payload=msg.payload;\n}\nelse{\n  \nlast_payload=local[topic];\n}\n\nnode.log(\"last payload \"+ last_payload);\nnode.log(\"This payload \"+ msg.payload);\n//msg.payload=JSON.stringify(payload);\nnode.log(JSON.stringify(local));\n//\nif (msg.payload==last_payload)\n{\nnode.log(\"same data\"+topic);\nreturn null;\n}\nelse{\nlocal[topic]=msg.payload;\nnode.log(local);\ncontext.set('local',local);\n}\n//\nvar d = new Date();\nvar t = d.getTime();\npayload={\"time\":t,\"payload\":msg.payload,\"topic\":msg.topic};\n//msg.payload=JSON.stringify(payload);\nmsg.payload=payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 334,
+        "y": 361,
+        "wires": [
+            [
+                "e70dddc1.e739c"
+            ]
+        ]
+    },
+    {
+        "id": "b64f8909.e26488",
+        "type": "function",
+        "z": "c9db48c63e1a3fde",
+        "name": "All data",
+        "func": "\nvar topic=msg.topic;\nvar d = new Date();\nvar t = d.getTime();\npayload={\"time\":t,\"payload\":msg.payload,\"topic\":msg.topic};\n//msg.payload=JSON.stringify(payload);\n//msg.filename=\"/home/pi/logs/data.log\";\nmsg.payload=payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 281,
+        "y": 239,
+        "wires": [
+            [
+                "e70dddc1.e739c"
+            ]
+        ]
+    },
+    {
+        "id": "17808aef3dc94114",
+        "type": "http in",
+        "z": "78519359320c165a",
+        "name": "",
+        "url": "/entered_values",
+        "method": "post",
+        "upload": true,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 740,
+        "wires": [
+            [
+                "b21c3385d1fcfe3c",
+                "b4fb846af926fce4",
+                "a0425b4c8ab9c142"
+            ]
+        ]
+    },
+    {
+        "id": "b21c3385d1fcfe3c",
+        "type": "debug",
+        "z": "78519359320c165a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "b4fb846af926fce4",
+        "type": "change",
+        "z": "78519359320c165a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "$2a$10$QZMs4Wfp1pYUtLMLmtw.S.Rq9LyUEJAeUPi.gg0sPvaIFvx3Zn4Ki",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 800,
+        "wires": [
+            [
+                "5ecdf4d9e7d5ae38"
+            ]
+        ]
+    },
+    {
+        "id": "6121a81744545087",
+        "type": "debug",
+        "z": "78519359320c165a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "272a39b71eb5af47",
+        "type": "change",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "input1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 880,
+        "wires": [
+            [
+                "eae8d6d478a08793"
+            ]
+        ]
+    },
+    {
+        "id": "c4032a63d034e3a4",
+        "type": "comment",
+        "z": "78519359320c165a",
+        "name": "Password -verification",
+        "info": "Here the password entered by the user is verified against the password set and finally a go is given",
+        "x": 120,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "eee76fc0476fdfec",
+        "type": "function",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "call-dashboard",
+        "func": "//var success;\n\n//var check;\n//check=msg.match;\n\n// since msg.match returns boolean, just compare it with true or false. DOnt put it in quotes.\n//import { createRequire } from 'module';\n//const require = createRequire(import.meta.url);\n<script src=\"https://requirejs.org/docs/release/2.3.5/minified/require.js\"></script>\n\nvar redirect = function(){\n   window.location.href = \"https://www.google.com\";\n}\nvar msg1\nvar msg2\n\nif ( msg.match === false )\n{ \n    msg1 = { payload:\" Login Failed\" }; \n    //return [msg1,null];\n    const open = require('open')\n    await open('http://sindresorhus.com')\n}\nelse\nif ( msg.match === true )\n{\n msg1 = { payload:\" Login Successful\" };\n msg2 = { payload: msg.payload.input2};\n //const open = require('open')\n //await open('http://www.google.com')\n \n const open = require('open');\n\n await open('https://google.com', {\n\tapp: {\n\t\tname: open.apps.chrome\n\t}\n});\n //redirect();\n //const open = require('open');\n \n//(async () => {\n    // Opens the image in the default image viewer and waits for the opened app to quit.\n   // await open('unicorn.png', {wait: true});\n    //console.log('The image viewer app quit');\n \n    // Opens the URL in the default browser.\n  //  await open('http://192.168.2.9:1880/ui');\n \n    // Opens the URL in a specified browser.\n    //await open('https://sindresorhus.com', {app: 'firefox'});\n \n    // Specify app arguments.\n    //await open('https://sindresorhus.com', {app: ['google chrome', '--incognito']});\n//})();\n   //return [msg1,msg2];\n}\n\n",
+        "outputs": 2,
+        "noerr": 5,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nconst open = require('open');\n\n await open('https://google.com', {\n\tapp: {\n\t\tname: open.apps.chrome\n\t}\n});",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 1020,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "939cd6b7e6e69f04",
+        "type": "change",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "input2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 940,
+        "wires": [
+            [
+                "eae8d6d478a08793"
+            ]
+        ]
+    },
+    {
+        "id": "a95002e0369618e6",
+        "type": "inject",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.2",
+        "topic": "",
+        "payload": "http://192.168.2.9:1880/ui",
+        "payloadType": "str",
+        "x": 670,
+        "y": 940,
+        "wires": [
+            [
+                "939cd6b7e6e69f04"
+            ]
+        ]
+    },
+    {
+        "id": "77a2779bce4d2470",
+        "type": "link out",
+        "z": "78519359320c165a",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "75fdd31345cc462e",
+            "d2838f04c31763aa",
+            "3aec8e7c24465399",
+            "fae07853b44f6a75",
+            "b91bb3df55ae3c6e",
+            "2aad51cfe22bf05a"
+        ],
+        "x": 1265,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "eae8d6d478a08793",
+        "type": "join",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1030,
+        "y": 880,
+        "wires": [
+            [
+                "6027c6434dfc318c"
+            ]
+        ]
+    },
+    {
+        "id": "6027c6434dfc318c",
+        "type": "debug",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "7e46c50a546f86b0",
+        "type": "debug",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1330,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "9c8879d53daa3026",
+        "type": "template",
+        "z": "78519359320c165a",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n<body>\n\n<h1>The form method=\"post\" attribute</h1>\n\n<form action=\"/entered_values\" method=\"post\" target=\"checking\">\n  <label for=\"uname\">User name:</label>\n  <input type=\"text\" id=\"uname\" name=\"uname\"><br><br>\n  <label for=\"pwd\">Password:</label>\n  <input type=\"text\" id=\"pwd\" name=\"pwd\"><br><br>\n  <input type=\"submit\" value=\"Submit\">\n</form>\n\n<p>Click on the submit button, and the form will be submittied using the POST method.</p>\n\n</body>\n</html>\n",
+        "output": "str",
+        "x": 420,
+        "y": 400,
+        "wires": [
+            [
+                "d8f9df0080dbe7c5"
+            ]
+        ]
+    },
+    {
+        "id": "afbedcc859e6b541",
+        "type": "http in",
+        "z": "78519359320c165a",
+        "name": "",
+        "url": "/login",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 400,
+        "wires": [
+            [
+                "9c8879d53daa3026",
+                "10cb5ef41463178f"
+            ]
+        ]
+    },
+    {
+        "id": "d8f9df0080dbe7c5",
+        "type": "http response",
+        "z": "78519359320c165a",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "7d69dd478d5a85e4",
+        "type": "comment",
+        "z": "78519359320c165a",
+        "name": "Login page - using /entered_values",
+        "info": "In this page, the user can input user name and password which get directed to /entered_values page\nthe username and password are read from the /entered_values web page using post command. THis works with password verification flow where the password is verified against the encrypted set password.",
+        "x": 340,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ecf89eb6e7d14c7e",
+        "type": "inject",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "$2a$10$nTaeXzQ/PRe4L54rs9aIiO3lm0DoTJTv1UaNMtpayjyR.RYfpd9f6",
+        "payload": "payload",
+        "payloadType": "msg",
+        "x": 130,
+        "y": 1060,
+        "wires": [
+            [
+                "29e6b400daca17ed"
+            ]
+        ]
+    },
+    {
+        "id": "0aa7a43d7de52ae0",
+        "type": "debug",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "match",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "9c4f8f2e65b7c584",
+        "type": "comment",
+        "z": "78519359320c165a",
+        "name": "password generation and verification",
+        "info": "The below flow, is used to generate the hashed password and then verify it with the user entered password.\nThe reference hashed password is given in message.topic which then gets injected into the brypt node.\nThe password entered should be given in the msg.payload section of the inject node.\nBcrypt compares the payload value ( plain password ) with the salted and hashed password in topic and gives true or false\nthe result should be checked in msg.match of the dbug node.",
+        "x": 400,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "12ed2375ad493029",
+        "type": "comment",
+        "z": "78519359320c165a",
+        "name": "login page -using script in html and opening dashboard",
+        "info": "This flow, startes from the login page, compares the username and password and loads the dashboard if matched. \nDoes not use password encryption and reads the data entered int he form in html directly without sending to any other file or any web page\nDisadvantage of this method is everything is done in html and can be seen by the user\n",
+        "x": 260,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "6dcb140f236e6bcb",
+        "type": "http in",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "url": "/login",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 65,
+        "y": 137,
+        "wires": [
+            [
+                "b9867b7c46220f5f"
+            ]
+        ]
+    },
+    {
+        "id": "7dd3bbd94d4363a4",
+        "type": "http response",
+        "z": "78519359320c165a",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 490,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b9867b7c46220f5f",
+        "type": "template",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n<body>\n<center>\n\n<h1> Login Page  </h1>\n\n<form action=\"\" id=\"signup\">\n  <label for=\"uname\">User name:</label>\n  <input type=\"text\" id=\"uname\" name=\"uname\"><br><br>\n  <label for=\"pwd\">Password:</label>\n  <input type=\"text\" id=\"pwd\" name=\"pwd\"><br><br>\n  <!--<input type=\"submit\" value=\"Submit\"> -->\n</form>\n\n<button onclick=\"myFunction()\">Submit</button>\n\n<p id=\"demo\"></p>\n\n<script>\nfunction myFunction() {\n  const form=document.getElementById(\"signup\");\n  var usrn=\"\", pwd=\"\";\n  usrn = form.elements['uname'];\n  pwd = form.elements['pwd'];\n  //{{msg.topic}}=usrn;\n  //msg.pwd=pwd;\n // return msg;\n  //document.getElementById(\"demo\").innerHTML = pwd.value;\n if ( (usrn.value == \"nk\")&&(pwd.value == \"login\"))\n  {\n      document.getElementById(\"demo\").innerHTML = \"Login Successful\";\n      //window.open(\"https://www.w3schools.com\",\"_self\");\n      window.open(\"http://165.232.191.36:1882/ui\",\"_self\");\n  }\n  else\n  {\n      document.getElementById(\"demo\").innerHTML = \"Login Failed\";\n  }\n}\n</script>\n</center>\n\n</body>\n</html>\n",
+        "output": "str",
+        "x": 314,
+        "y": 136,
+        "wires": [
+            [
+                "7dd3bbd94d4363a4",
+                "1e3720932f9035ca"
+            ]
+        ]
+    },
+    {
+        "id": "4e9b3fe162f0a2cd",
+        "type": "debug",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "10cb5ef41463178f",
+        "type": "template",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n<body>\n\n<h1>The form method=\"post\" attribute</h1>\n\n<form action=\"action.php\" method=\"post\" target=\"checking\">\n  <label for=\"uname\">User name:</label>\n  <input type=\"text\" id=\"uname\" name=\"uname\"><br><br>\n  <label for=\"pwd\">Password:</label>\n  <input type=\"text\" id=\"pwd\" name=\"pwd\"><br><br>\n  <input type=\"submit\" value=\"Submit\">\n</form>\n\n<p>Click on the submit button, and the form will be submittied using the POST method.</p>\n\n</body>\n</html>\n",
+        "output": "str",
+        "x": 400,
+        "y": 460,
+        "wires": [
+            [
+                "4e9b3fe162f0a2cd",
+                "bb266cbd30504b03"
+            ]
+        ]
+    },
+    {
+        "id": "bb266cbd30504b03",
+        "type": "http response",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 690,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "5ecdf4d9e7d5ae38",
+        "type": "bcrypt",
+        "z": "78519359320c165a",
+        "name": "entered-pwd-verify",
+        "action": "verify",
+        "field": "payload.pwd",
+        "hash": "topic",
+        "rounds": 10,
+        "x": 550,
+        "y": 800,
+        "wires": [
+            [
+                "6121a81744545087",
+                "43d0314bdcc38679"
+            ]
+        ],
+        "info": "return{payload."
+    },
+    {
+        "id": "29e6b400daca17ed",
+        "type": "bcrypt",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "generate",
+        "action": "encrypt",
+        "field": "payload",
+        "hash": "topic",
+        "rounds": 10,
+        "x": 320,
+        "y": 1060,
+        "wires": [
+            [
+                "0aa7a43d7de52ae0"
+            ]
+        ]
+    },
+    {
+        "id": "8d351d455293c152",
+        "type": "nbrowser",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "UI",
+        "methods": [
+            {
+                "name": "gotoURL",
+                "func": "goto",
+                "params": [
+                    {
+                        "type": "msg",
+                        "value": "payload",
+                        "typeDefault": "str"
+                    }
+                ]
+            }
+        ],
+        "prop": "nbrowser",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "close": false,
+        "show": true,
+        "ssl": false,
+        "outputs": 1,
+        "x": 1190,
+        "y": 1080,
+        "wires": [
+            [
+                "7e46c50a546f86b0"
+            ]
+        ]
+    },
+    {
+        "id": "1e3720932f9035ca",
+        "type": "debug",
+        "z": "78519359320c165a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "f82d59ee143b13a6",
+        "type": "bcrypt",
+        "z": "78519359320c165a",
+        "name": "",
+        "action": "encrypt",
+        "field": "payload",
+        "hash": "payload",
+        "rounds": 10,
+        "x": 390,
+        "y": 1180,
+        "wires": [
+            [
+                "e606df757a1f2905"
+            ]
+        ]
+    },
+    {
+        "id": "f23c0cb9c8e6e33b",
+        "type": "inject",
+        "z": "78519359320c165a",
+        "name": "Password to be encrpted",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "login",
+        "payloadType": "str",
+        "x": 150,
+        "y": 1180,
+        "wires": [
+            [
+                "f82d59ee143b13a6"
+            ]
+        ]
+    },
+    {
+        "id": "e606df757a1f2905",
+        "type": "debug",
+        "z": "78519359320c165a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "a0425b4c8ab9c142",
+        "type": "function",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "func": "msg.payload = 'Verifying... ';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 720,
+        "wires": [
+            [
+                "ceabdd21dd17699e"
+            ]
+        ]
+    },
+    {
+        "id": "ceabdd21dd17699e",
+        "type": "http response",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 630,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "031a3178c955cc9d",
+        "type": "http request",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "body",
+        "url": "http://165.232.191.36:1882/ui",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "basic",
+        "senderr": false,
+        "x": 350,
+        "y": 860,
+        "wires": [
+            [
+                "eb76c566f53297d6",
+                "6f1b5f2800ed25c5"
+            ]
+        ]
+    },
+    {
+        "id": "eb76c566f53297d6",
+        "type": "http response",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 530,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "6f1b5f2800ed25c5",
+        "type": "debug",
+        "z": "78519359320c165a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "478b159586bbb0d2",
+        "type": "inject",
+        "z": "78519359320c165a",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 860,
+        "wires": [
+            [
+                "031a3178c955cc9d"
+            ]
+        ]
+    },
+    {
+        "id": "c8f43a6daf2fe7fb",
+        "type": "http response",
+        "z": "78519359320c165a",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1090,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "43d0314bdcc38679",
+        "type": "function",
+        "z": "78519359320c165a",
+        "name": "",
+        "func": "if ( msg.match===true)\n  {\n //document.getElementById(\"demo\").innerHTML = \"Login Successful\";\n      msg.payload.script= 'document.getElementById(\"demo\").innerHTML = \"Login Successful\", window.open(\"http://165.232.191.36:1881/ui\",\"_self\")';\n  }\n  else\n  {\n       msg.payload.script = 'document.getElementById(\"demo\").innerHTML = \"Login Failed\"';\n  }\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 800,
+        "wires": [
+            [
+                "2272a5c8bf1ef646"
+            ]
+        ]
+    },
+    {
+        "id": "2272a5c8bf1ef646",
+        "type": "template",
+        "z": "78519359320c165a",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<p id=\"demo\"></p>\n<script>{{{payload.script}}}</script>",
+        "output": "str",
+        "x": 900,
+        "y": 800,
+        "wires": [
+            [
+                "c8f43a6daf2fe7fb"
+            ]
+        ]
+    },
+    {
+        "id": "1e0841f1.ac68fe",
+        "type": "http in",
+        "z": "60d5f833419ebeb5",
+        "name": "",
+        "url": "/mysite",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "4c783328.03dc2c"
+            ]
+        ]
+    },
+    {
+        "id": "5de0bbd4.6c8574",
+        "type": "http in",
+        "z": "60d5f833419ebeb5",
+        "name": "",
+        "url": "/mysitepost",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 460,
+        "wires": [
+            [
+                "80321000.f2dc5",
+                "75913f37.78e6e"
+            ]
+        ]
+    },
+    {
+        "id": "4c783328.03dc2c",
+        "type": "function",
+        "z": "60d5f833419ebeb5",
+        "name": "msg.url = \"mysitepost\";",
+        "func": "msg.url = \"mysitepost\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 260,
+        "wires": [
+            [
+                "b2f5bdf9.e09f1"
+            ]
+        ]
+    },
+    {
+        "id": "80321000.f2dc5",
+        "type": "debug",
+        "z": "60d5f833419ebeb5",
+        "name": "mysitepost",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "complete": "payload",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "8de9647.b8a9a98",
+        "type": "http response",
+        "z": "60d5f833419ebeb5",
+        "name": "",
+        "x": 810,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b2972258.ecf54",
+        "type": "template",
+        "z": "60d5f833419ebeb5",
+        "name": "CSS",
+        "field": "payload.style",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "input[type=text], select {\n    width: 100%;\n    padding: 12px 20px;\n    margin: 8px 0;\n    display: inline-block;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    box-sizing: border-box;\n}\n\ninput[type=submit] {\n    width: 100%;\n    background-color: #4CAF50;\n    color: white;\n    padding: 14px 20px;\n    margin: 8px 0;\n    border: none;\n    border-radius: 4px;\n    cursor: pointer;\n}\n\ninput[type=submit]:hover {\n    background-color: #45a049;\n}\n\ndiv {\n    border-radius: 5px;\n    background-color: #f2f2f2;\n    padding: 20px;\n}",
+        "x": 530,
+        "y": 360,
+        "wires": [
+            [
+                "f3b55ea2.f4d51"
+            ]
+        ]
+    },
+    {
+        "id": "b2f5bdf9.e09f1",
+        "type": "template",
+        "z": "60d5f833419ebeb5",
+        "name": "JavaScript",
+        "field": "payload.script",
+        "fieldType": "msg",
+        "format": "javascript",
+        "syntax": "plain",
+        "template": "$(document).ready(function(e) {\n    \n    $(\"form[ajax=true]\").submit(function(e) {\n        \n        e.preventDefault();\n        \n        var form_data = $(this).serialize();\n        var form_url = $(this).attr(\"action\");\n        var form_method = $(this).attr(\"method\").toUpperCase();\n        \n        $(\"#loadingimg\").show();\n        \n        $.ajax({\n            url: form_url, \n            type: form_method,      \n            data: form_data,     \n            cache: false,\n            success: function(returnhtml){                          \n                $(\"#result\").html(returnhtml); \n                $(\"#loadingimg\").hide();                    \n            }           \n        });    \n        \n    });\n    \n});",
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "b2972258.ecf54"
+            ]
+        ]
+    },
+    {
+        "id": "d2c0bc2a.05a02",
+        "type": "http response",
+        "z": "60d5f833419ebeb5",
+        "name": "",
+        "x": 810,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f3b55ea2.f4d51",
+        "type": "template",
+        "z": "60d5f833419ebeb5",
+        "name": "HTML",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<html>\n  <head>\n    <title>My Site</title>\n    <meta name=\"viewport\" content=\"initial-scale=1.0, user-scalable=no\">\n    <meta charset=\"utf-8\">\n    <script src=\"http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js\"></script>\n    <style>{{{payload.style}}}</style>\n  </head>\n  \n\n    <h2>Using CSS to style an HTML form with AJAX POST and Node-RED</h2>\n    <h4><a href=\"http://www.internetoflego.com\">Internet of LEGO</a></h4>\n\n<div>\n  <form method=\"post\" action=\"/{{url}}\" ajax=\"true\">\n    <label for=\"fname\">First Name</label>\n    <input type=\"text\" id=\"fname\" name=\"firstname\">\n\n    <label for=\"lname\">Last Name</label>\n    <input type=\"text\" id=\"lname\" name=\"lastname\">\n\n    <label for=\"country\">Country</label>\n    <select id=\"country\" name=\"country\">\n      <option value=\"uk\">United Kingdom</option>\n      <option value=\"canada\">Canada</option>\n      <option value=\"usa\">USA</option>\n    </select>\n  \n    <input type=\"submit\" value=\"Submit\">\n  </form>\n</div>\n<div>\n    <span id=\"result\"></span>\n</div>\n\n</body>\n</html>\n<script>{{{payload.script}}}</script>",
+        "x": 670,
+        "y": 360,
+        "wires": [
+            [
+                "d2c0bc2a.05a02"
+            ]
+        ]
+    },
+    {
+        "id": "57316751.8bd948",
+        "type": "comment",
+        "z": "60d5f833419ebeb5",
+        "name": "Login Form",
+        "info": "",
+        "x": 330,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ad88b28c.bc842",
+        "type": "function",
+        "z": "60d5f833419ebeb5",
+        "name": "return msg.payload to client",
+        "func": "msg.payload = 'The following data was submitted and available in the msg.payload: '+msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 420,
+        "wires": [
+            [
+                "8de9647.b8a9a98"
+            ]
+        ]
+    },
+    {
+        "id": "42a9d329.9cdf6c",
+        "type": "comment",
+        "z": "60d5f833419ebeb5",
+        "name": "Inject msg object properties",
+        "info": "",
+        "x": 340,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "75913f37.78e6e",
+        "type": "json",
+        "z": "60d5f833419ebeb5",
+        "name": "",
+        "x": 350,
+        "y": 420,
+        "wires": [
+            [
+                "ad88b28c.bc842",
+                "61249fd0f49028f9"
+            ]
+        ]
+    },
+    {
+        "id": "86c08a83.385758",
+        "type": "comment",
+        "z": "60d5f833419ebeb5",
+        "name": "Website",
+        "info": "",
+        "x": 110,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "111485fa.14c4aa",
+        "type": "comment",
+        "z": "60d5f833419ebeb5",
+        "name": "Form Submission",
+        "info": "",
+        "x": 140,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "3c029955.901626",
+        "type": "comment",
+        "z": "60d5f833419ebeb5",
+        "name": "Node-RED Public Site - README",
+        "info": "This Flow demonstrates how to create\na simple frontend webpage with Node-RED.\n\nThe public facing page consists of the \nclient side JavaScript, CSS and HTML. \n\nThe important technique is how the mustache \ntemplates are used. Each template will set the\n\"property\" relative to the content. \n\nThe CSS node sets the \"msg.payload.style\" property.\nThe JavaScript node sets the \"msg.payload.script\" property.\nThe HTML node then includes these properties \n<script>{{{payload.script}}}</script>\n<style>{{{payload.style}}}</style>\n\n\nThis example was created by http://www.InternetofLEGO.com\n\n",
+        "x": 440,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "61249fd0f49028f9",
+        "type": "debug",
+        "z": "60d5f833419ebeb5",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 500,
+        "wires": []
+    }
+]
